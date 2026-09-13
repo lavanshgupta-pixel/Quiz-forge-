@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ChevronRight, Clock3, CheckCircle2 } from "lucide-react";
-
+import React from "react";
 export default function QuizRunner({ quiz, questions, submitQuiz }) {
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState({});

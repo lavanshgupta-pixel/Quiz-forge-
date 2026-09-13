@@ -1,5 +1,5 @@
 import { Trophy } from "lucide-react";
-
+import React from "react";
 export default function Result({ attempt, quiz, questionCount, review, backToDashboard }) {
   const score = attempt?.score || 0;
   const correct = attempt?.correct ?? Math.round((score / 100) * questionCount);

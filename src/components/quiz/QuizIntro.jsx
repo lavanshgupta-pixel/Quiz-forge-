@@ -1,5 +1,5 @@
 import { ArrowLeft, BookOpen, Clock3, ShieldCheck, ChevronRight } from "lucide-react";
-
+import React from "react";
 export default function QuizIntro({ quiz, startQuiz, back }) {
   if (!quiz) return null;
   return (

@@ -1,5 +1,5 @@
 import { ArrowLeft, CheckCircle2, Sparkles } from "lucide-react";
-
+import React from "react";
 export default function Review({ attempt, quiz, questions, back }) {
   return (
     <div className="page">
